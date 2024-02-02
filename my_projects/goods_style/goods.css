@@ -1,0 +1,110 @@
+.goods {
+  padding-top: 20px;
+  width: 97%;
+  margin: 0 auto;
+}
+.goods .title {
+  color: #000;
+  font-family: "Open Sans";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.goods .container {
+  padding-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px 0;
+}
+.goods .container .product_card {
+  width: 300px;
+  height: 400px;
+}
+.goods .container .product_card .product_img {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 75%;
+}
+.goods .container .product_card .product_img .svg {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  cursor: pointer;
+}
+.goods .container .product_price .both_price_div {
+  display: flex;
+}
+.goods .container .product_price .both_price_div .current_price {
+  color: #000;
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.goods .container .product_price .both_price_div .old_price {
+  padding: 5px 0 0 10px;
+  color: #565656;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  -webkit-text-decoration: line-through red;
+          text-decoration: line-through red;
+}
+.goods .container .product_price .description {
+  color: #000;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.goods .container_2 {
+  margin-top: 30px;
+  border-radius: 26px;
+  background: #2a334f;
+  width: 100%;
+  display: flex;
+  min-height: 40vh;
+}
+.goods .container_2 .block_1 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  background: #000;
+}
+.goods .container_2 .block_1 .text_1 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.goods .container_2 .block_1 .text_2 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.goods .container_2 .block_1 .text_3 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.goods .container_2 .block_2 {
+  width: 50%;
+}/*# sourceMappingURL=goods.css.map */

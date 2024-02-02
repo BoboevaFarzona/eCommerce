@@ -1,0 +1,14 @@
+.block_slider {
+  padding-top: 20px;
+  width: 98%;
+  margin: 0 auto;
+}
+.slider {
+  width: 100%;
+  min-height: 80vh;
+  border-radius: 26px;
+  background: linear-gradient(90deg, #efefef 0%, #fbfbfb 100%);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}

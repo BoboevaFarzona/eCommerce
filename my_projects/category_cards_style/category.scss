@@ -1,0 +1,118 @@
+.category_cards {
+  padding-top: 20px;
+  width: 98%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 26px;
+  background: linear-gradient(137deg, #222 4.74%, #333334 94.3%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px 10px;
+}
+
+.img_category_backpack {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.category_title {
+  /* padding:15px   30px;    */
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.more_btn {
+  width: 100px;
+  padding: 12px;
+  border-radius: 30px;
+  background: #fff;
+  border: #f42c37;
+}
+.big_card {
+  width: 700px;
+  height: 300px;
+  border-radius: 26px;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 10px;
+}
+.big_card_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.img {
+  position: relative;
+}
+.samsung {
+  position: absolute;
+  bottom: 0;
+  right: 80px;
+  z-index: 1;
+}
+.iphone {
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  right: -20px;
+}
+.two_small_cards_container {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  width: 48%;
+}
+.big_card_container {
+  width: 48%;
+  display: flex;
+}
+.backpack_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.services {
+  padding-top: 20px;
+  width: 98%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.info_card {
+  border-radius: 26px;
+  background: #f7f7fa;
+  width: 298px;
+  height: 100px;
+  flex-shrink: 0;
+  &_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    .text {
+      color: #000;
+      font-family: "Open Sans";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+  }
+}
+
+
